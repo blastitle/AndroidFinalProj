@@ -5,12 +5,12 @@ import com.oshri.finalproject.Pokemon.Pokemon;
 import java.util.ArrayList;
 
 public class User {
-    private String id;
-    public String name;
-    private String email;
-    public int wins;
-    public int losses;
-    public ArrayList<ArrayList<Pokemon>> teams;
+    private String id; //User's ID
+    public String name; //Username
+    private String email; //User's EMail
+    public int wins; //Win count
+    public int losses; //Loss count
+    public ArrayList<ArrayList<Pokemon>> teams; //Array of all saved Teams
     public String getId(){
         return id;
     }

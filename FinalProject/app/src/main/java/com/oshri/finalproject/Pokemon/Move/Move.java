@@ -8,6 +8,7 @@ import com.oshri.finalproject.Types.Types;
 import org.json.simple.JSONObject;
 
 public class Move {
+    private String id; //Moves' ID
     private String name;
     private Types type; //Type of the move
     private MoveCategory category;//Category (Phys, Special or Status)
@@ -22,6 +23,7 @@ public class Move {
     }
     public static Move fromString(@NonNull JSONObject obj){
 
+        //return ;
     }
 
 }
